@@ -9,6 +9,8 @@
 #' media(x)
 #' mean(x)
 #' @export
+#' @useDynLib myPackage
+#' @importFrom Rcpp sourceCpp
 media <- function(x) {
-  .Call(mi_media(x))
+  .Call(`_hola_meanC`, x)
 }
