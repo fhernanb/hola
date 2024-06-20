@@ -2,7 +2,7 @@
 % Please edit documentation in R/RcppExports.R
 \name{meanC}
 \alias{meanC}
-\title{Media de un vector usan C++.}
+\title{Media de un vector usando C++.}
 \usage{
 meanC(x)
 }
@@ -13,5 +13,5 @@ meanC(x)
 la media.
 }
 \description{
-Media de un vector usan C++.
+Media de un vector usando C++.
 }

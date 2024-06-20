@@ -1,7 +1,7 @@
 #include <Rcpp.h>
 using namespace Rcpp;
 
-//' Media de un vector usan C++.
+//' Media de un vector usando C++.
 //' @param x numeric vector
 //' @export
 //' @return la media.
